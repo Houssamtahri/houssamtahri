@@ -1,0 +1,685 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houssam Tahri</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/smooth-scrollbar.css">
+    <link rel="stylesheet" href="./assets/css/lightbox.min.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <style>
+        .white-links a {
+        color: white;
+        text-decoration: none; 
+        }
+
+        .white-links a:hover {
+        color: lightgray; 
+        }
+    </style>
+</head>
+<body class="home3-page">
+
+    <video class="body-overlay" muted autoplay loop>
+        <source src="./assets/images/video.mp4" type="video/mp4">
+    </video>
+
+    <div class="page-loader">
+        <div class="bounceball"></div>
+    </div>
+
+    <span class="icon-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
+
+    <div class="global-color">
+        <span class="setting-toggle">
+            <i class="las la-cog"></i>
+        </span>
+        <div class="inner">
+            <div class="overlay"></div>
+            <div class="global-color-option">
+                <span class="close-settings">
+                    <i class="las la-times"></i>
+                </span>
+                <h2>Configuration</h2>
+                <div class="global-color-option-inner">
+                    <p>Colors</p>
+                    <div class="color-boxed">
+                        <a href="#" class="clr-active" onclick="color1();"></a>
+                        <a href="#" onclick="color2();"></a>
+                        <a href="#" onclick="color3();"></a>
+                        <a href="#" onclick="color4();"></a>
+                        <a href="#" onclick="color5();"></a>
+                        <a href="#" onclick="color6();"></a>
+                        <a href="#" onclick="color7();"></a>
+                        <a href="#" onclick="color8();"></a>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive-sidebar-menu">
+        <div class="overlay"></div>
+        <div class="sidebar-menu-inner">
+            <div class="menu-wrap">
+                <p>Menu</p>
+                <ul class="menu scroll-nav-responsive d-flex">
+                    <li>
+                        <a class="scroll-to" href="#home">
+                            <i class="las la-home"></i> <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#about">
+                            <i class="lar la-user"></i> <span>About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#experiences">
+                            <i class="las la-briefcase"></i> <span>Experiences</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#skills">
+                            <i class="las la-stream"></i> <span>Skills</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#languages">
+                            <i class="las la-shapes"></i> <span>Languages</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#projects">
+                            <i class="las la-grip-vertical"></i> <span>Projects</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#certifications">
+                            <i class="las la-bezier-curve"></i> <span>Certifications</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#contact">
+                            <i class="las la-envelope"></i> <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sidebar-social">
+                <p>Social</p>
+                <ul class="social-links d-flex align-items-center">
+                    <li>
+                        <a href="https://x.com/tahriofficial"><i class="lab la-twitter"></i></a>
+                    </li>
+                   
+                    <li>
+                        <a href="https://www.linkedin.com/in/houssam-tahri/"><i class="lab la-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Houssamtahri"><i class="lab la-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <ul class="menu scroll-nav d-flex">
+        <li>
+            <a class="scroll-to" href="#home">
+                <span>Home</span> <i class="las la-home"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#about">
+                <span>About</span> <i class="lar la-user"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#experiences">
+                <span>Experiences</span> <i class="las la-briefcase"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#skills">
+                <span>Skills</span> <i class="las la-stream"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#languages">
+                <span>Languages</span> <i class="las la-shapes"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#projects">
+                <span>Projects</span> <i class="las la-grip-vertical"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#certifications">
+                <span>Certifications</span> <i class="las la-bezier-curve"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#contact">
+                <span>Contact</span> <i class="las la-envelope"></i>
+            </a>
+        </li>
+    </ul>
+
+    <div class="left-sidebar">
+       
+        <img class="me" src="./assets/images/My_Photo.jpg" alt="Me">
+        <h2 class="email" style="margin-bottom: 30px;">Houssam TAHRI</h2>
+        <h2 class="address" style="font-size: 20px;">tahri.houssam1@gmail.com</h2>
+        <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+            <li>
+                <a href="https://x.com/tahriofficial"><i class="lab la-twitter"></i></a>
+            </li>
+           
+            <li>
+                <a href="https://www.linkedin.com/in/houssam-tahri/"><i class="lab la-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/Houssamtahri"><i class="lab la-github"></i></a>
+            </li>
+        </ul>
+        <a href="https://wa.me/212690668455" class="theme-btn">
+            <i class="las la-envelope"></i> Contact Me!
+        </a>
+    </div>
+
+    <main class="drake-main">
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+                <div class="left-sidebar">
+                   
+                    <img class="me" src="./assets/images/My_Photo.jpg" alt="Me">
+                    <h2 class="email" style="margin-bottom: 30px;"><span>Houssam</span> TAHRI</h2>
+                    <h3 class="address" style="text-align: center;font-size: 20px;">tahri.houssam1@gmail.com</h3>
+                    <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+                        <li>
+                            <a href="https://x.com/tahriofficial"><i class="lab la-twitter"></i></a>
+                        </li>
+                       
+                        <li>
+                            <a href="https://www.linkedin.com/in/houssam-tahri/"><i class="lab la-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Houssamtahri"><i class="lab la-github"></i></a>
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/qr/2WQFOK4XLW7DK1" class="theme-btn">
+                        <i class="las la-envelope"></i> Contact Me!
+                    </a>
+                </div>
+
+                <section class="hero-section page-section scroll-to-page" id="home">
+
+                    <div class="custom-container">
+                        <div class="hero-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-home"></i> Introduce
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom" style="font-size:30px;">I am <span>Houssam Tahri</span>, Functional Developer Engineer</h1>
+                            </div>
+                            <p class="scroll-animation" data-animation="fade_from_bottom">I'm excited to share my journey with you through the work showcased here. Feel free to explore and enjoy the ride!</p>
+                            <a href="#projects" 
+                                class="go-to-project-btn scroll-to scroll-animation" 
+                                data-animation="rotate_up">
+                                <img src="./assets/images/round-text.png" alt="">
+                                <i class="las la-arrow-down"></i>
+                            </a>
+        
+                            <div class="facts d-flex" style="gap: 40px;">
+                                <div class="left scroll-animation" data-animation="fade_from_left">
+                                    <h1>1+</h1>
+                                    <p>Years of <br>Experience</p>
+                                </div>
+                                <div class="right scroll-animation" data-animation="fade_from_right">
+                                    <h1>Education</h1>
+                                    <p>Engineer's degree, Electronic, Computer <br>Science and Network Systems</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        
+                <section class="about-area page-section scroll-to-page" id="about">
+                    <div class="custom-container">
+                        <div class="about-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="lar la-user"></i> About
+                                </h4>
+                               <!-- <h1 class="scroll-animation" data-animation="fade_from_bottom">Unleashing the Power of Models in Automotive Innovation</h1>-->
+
+                            </div>
+                            <p class="scroll-animation" data-animation="fade_from_bottom" style="text-align: justify;">As a Model-Based Design and Embedded Software Engineer, I develop and optimize automotive systems with a strong focus on functional safety and software quality. I’m skilled in the V-Model, ISO 26262, ASPICE, and MISRA standards, with experience in integrating electric motors into automotive applications.
+</p>
+                        </div>
+                    </div>
+                </section>
+        
+        
+                <section class="resume-area page-section scroll-to-page" id="experiences">
+                    <div class="custom-container">
+                        <div class="resume-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-briefcase"></i> Experiences
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Professional <span>Experiences</span></h1>
+                            </div>
+        
+                            <div class="resume-timeline">
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">2025 - Present</span>
+                                    <h2>Functional Developer & Calibrator Engineer </h2>
+                                    <p>IAV Gmbh</p>
+                                  
+                                </div>
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Sep, 2024 - Dec, 2024</span>
+                                    <h2>Automotive Consultant</h2>
+                                    <p>AKKODIS</p>
+                                   
+                                </div>
+                               <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Mar, 2024 - Aug, 2024</span>
+                                    <h2>ADAS System Engineer - Intern</h2>
+                                    <p>AKKODIS</p>
+                                    
+                                </div>
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Jul, 2024 - Sep, 2024</span>
+                                    <h2>IoT System Engineer - Intern</h2>
+                                    <p>D.G.N.I</p>
+                                 
+                                </div>
+                                 <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Jun, 2020 - Jul, 2020</span>
+                                    <h2>Diagnostic Technician - Intern</h2>
+                                    <p>Auto Hall</p>
+                                  
+                                </div>
+                                 
+                            </div>
+
+                            <div class="section-header">
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom" style="margin-top: 80px;">Volunteering <span>Experiences</span></h1>
+                            </div>
+
+                            <div class="resume-timeline">
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Oct, 2023 - Jul, 2024</span>
+                                    <h2>Actif Member </h2>
+                                    <p>GSEIR Club</p>
+                                  
+                                </div>
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Dec, 2022 - Jun, 2024</span>
+                                    <h2>Actif Member</h2>
+                                    <p>Google Developer Student's Club ENSAO</p>
+                                   
+                                </div>
+                               <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Sep, 2022 - Sep, 2023</span>
+                                    <h2>Head of Media Unit</h2>
+                                    <p>GSEIR Club</p>
+                                    
+                                </div>
+                                 
+                            </div>
+
+        
+                        </div>
+                    </div>
+                </section>
+        
+        
+                <section class="services-area page-section scroll-to-page" id="skills">
+                    <div class="custom-container">
+                        <div class="services-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-stream"></i> Skills
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">My <span>Specializations</span></h1>
+                            </div>
+        
+                            <div class="services-items">
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-stream"></i>
+                                    <h2>Software</h2>
+                                    <span >
+                                    Matlab/Simulink/Stateflow,<br> 
+                                    MagicDraw, DOORS, SILK Central,<br> 
+                                    Altuim Designer, ARES,<br>
+                                    Pycharm, VScode<br>
+                                    Excel, Word, PowerPoint
+                                    </span>
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-stream"></i>
+                                    <h2>Embedded Systems and Automotive Engineering</h2>
+                                    <span>
+                                    ADAS Systems, EE Architecture, SW Architecture,<br>
+                                    Automotive Diagnostics, Systems Engineer,<br>
+                                    AUTOSAR, MBD, MIL, SIL, IoT<br>
+                                    </span>
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-stream"></i>
+                                    <h2>Communication Protocols</h2>
+                                    <span>CAN, CAN-FD, Flex-Ray, LIN, Ethernet, I2C, UART</span>
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-stream"></i>
+                                    <h2>Security and Compliance of Automotive Systems</h2>
+                                    <span>ISO 26262, MISRA, ASPICE, DMZ</span>
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-stream"></i>
+                                    <h2>Data Frame Analysis</h2>
+                                    <span>CANalyzer, CANoe</span>
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-stream"></i>
+                                    <h2>Programming Languages</h2>
+                                    <span>Embedded C, C++, Python, Java, VHDL</span>
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-stream"></i>
+                                    <h2>Working Methodology</h2>
+                                    <span>V-model, Agile Scrum</span>
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-stream"></i>
+                                    <h2>Operating System</h2>
+                                    <span>Windows, Linux (Kali, Ubuntu, Debian)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        
+        
+                <section class="skills-area page-section scroll-to-page" id="languages">
+                    <div class="custom-container">
+                        <div class="skills-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-shapes"></i> Languages
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Language <span>Skills</span></h1>
+                            </div>
+        
+                            <div class="row skills text-center">
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./assets/images/united-kingdom.png" style="width:130px;" alt="Figma">
+                                            <h1 class="percent">C1</h1>
+                                        </div>
+                                        <p class="name">English</p>
+                                    </div>
+                                </div>
+                               
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./assets/images/france.png" style="width:130px;" alt="WordPress">
+                                            <h1 class="percent">B2</h1>
+                                        </div>
+                                        <p class="name">French</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./assets/images/saudi-arabia.png" style="width:130px;" alt="Laravel/PHP">
+                                            <h1 class="percent">C2</h1>
+                                        </div>
+                                        <p class="name">Arabic</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./assets/images/germany.png" style="width:130px;" alt="Laravel/PHP">
+                                            <h1 class="percent">A1</h1>
+                                        </div>
+                                        <p class="name">German</p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </section>
+        
+        
+                <section class="portfolio-area page-section scroll-to-page" id="projects">
+                    <div class="custom-container">
+                        <div class="portfolio-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-grip-vertical"></i> Projects
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Featured <span>Projects</span></h1>
+                            </div>
+        
+                            <div class="row portfolio-items">
+                                <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-full">
+                                        <div class="portfolio-item-inner">
+                                            <a href="./assets/images/Coming Soon.png" data-lightbox="example-1">
+                                                <img src="./assets/images/Coming Soon.png" alt="Portfolio">
+                                            </a>
+        
+                                          
+                                        </div>
+                                        <h2>Other Projects</h2>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="./assets/images/Coming Soon.png" data-lightbox="example-1">
+                                                <img src="./assets/images/Coming Soon.png" alt="Portfolio">
+                                            </a>
+
+                                            <img src="./assets/images/Coming Soon.png" alt="Portfolio">
+        
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-6 scroll-animation" data-animation="fade_from_right">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="./assets/images/Coming Soon.png" data-lightbox="example-1">
+                                                <img src="./assets/images/Coming Soon.png" alt="Portfolio">
+                                            </a>
+        
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="./assets/images/Coming Soon.png" data-lightbox="example-1">
+                                                <img src="./assets/images/Coming Soon.png" alt="Portfolio">
+                                            </a>
+        
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                
+        
+                        </div>
+                    </div>
+                </section>
+        
+                <section class="services-area page-section scroll-to-page" id="certifications">
+                    <div class="custom-container">
+                        <div class="services-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-bezier-curve"></i> Certifications
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">My <span>Certifications</span></h1>
+                            </div>
+        
+                            <div class="services-items">
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-bezier-curve"></i>
+                                    <h2>Udemy</h2>    
+                                    <div class="white-links" style="color: white; margin-top: 40px; line-height:normal;">                               
+                                       <p><a href="https://www.udemy.com/certificate/UC-98a607e8-4ebe-46cb-adc0-fb13a1547598/">AUTOSAR: From Basics to Advanced Application</a></p>
+                                       <p><a href="https://www.udemy.com/certificate/UC-15d43bb2-9d7f-46a8-b158-5863ea35adf7/">Model-Based Design Concepts</a></p>
+                                       <p><a href="https://www.udemy.com/certificate/UC-bb8df70c-64fc-47ed-bb40-484c17115b89/">Advanced Driver Assistance Systems (ADAS)</a></p>
+                                       <p><a href="https://www.udemy.com/certificate/UC-4cab7fab-b294-4eb1-9b15-9e533f8df1d0/">System Engineering V Model ISO26262 ASPICE and Motors</a></p>
+                                       <p><a href="https://www.udemy.com/certificate/UC-0583df92-1f0c-4e35-aa2c-08ef2cb26242/">Automotive Software AUTOSAR Application using MBD/ Simulink</a></p>
+                                    </div> 
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-bezier-curve"></i>
+                                    <h2>Mathworks</h2>
+                                    <div class="white-links" style="color: white; margin-top: 40px; line-height:normal;">    
+                                        <p><a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=5d18222e-057a-4498-ac6b-4ba50257248d&/">App Building Onramp</a></p>
+                                        <p><a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=09d9e71a-e025-413e-9f3c-301275d812a4&">Simscape Onramp</a></p>
+                                        <p><a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=09d9e71a-e025-413e-9f3c-301275d812a4&">Simulink Onramp</a></p>
+                                        <p><a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=32bf8b2c-20a9-47b0-9b37-a0efd937ff75&">MATLAB Onramp</a></p>
+                                        <p><a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=5ec63957-8c4a-4be0-a1a9-3c88a307e697&">Curve Fitting Onramp</a></p>
+                                        <p><a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=c71ab386-9629-4313-8732-deed58345805&">Stateflow Onramp</a></p>
+                                        <p><a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=afc3574d-6f9e-42a7-bcd4-8f130764d929&">Circuit Simulation Onramp</a></p>
+                                        <p><a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=9eb41464-2585-4637-bacf-4d218f960d9f&">Computer Vision Onramp</a></p>
+                                        <p><a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=7ad36724-8837-4567-a0e7-95f9d8e81d5c&">Control Design Onramp with Simulink</a></p>
+                                        <p><a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=3848da80-bccf-4a78-918f-e03767badd7e&">Power Electronics Simulation Onramp</a></p>
+
+                                    </div>
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-bezier-curve"></i>
+                                    <h2>Coursera</h2>
+                                    <div class="white-links" style="color: white; margin-top: 40px; line-height:normal;">    
+                                        <p ><a href="https://www.coursera.org/account/accomplishments/certificate/ELEQD7WR36CZ">Supervised Machine Learning: Regression and Classification</a></p>
+                                    </div>
+                                </div>
+    
+                              
+                            </div>
+        
+                        </div>
+                    </div>
+                </section>
+            
+
+                <section class="contact-area page-section scroll-content" id="contact">
+                    <div class="custom-container">
+                        <div class="contact-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-envelope"></i> Contact
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Let’s Connect to <span>Learn More</span> About Me!</h1>
+                            </div>
+                            <h3 class="scroll-animation" data-animation="fade_from_bottom">tahri.houssam1@gmail.com</h3>
+                            <p id="required-msg">* Marked fields are required to fill.</p>
+
+                            <form class="contact-form scroll-animation" data-animation="fade_from_bottom" method="POST" action="mailer.php">
+                                <div class="alert alert-success messenger-box-contact__msg" style="display: none" role="alert">
+                                    Your message was sent successfully.
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="full-name">full Name <sup>*</sup></label>
+                                            <input type="text" name="full-name" id="full-name" placeholder="Your Full Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="email">Email <sup>*</sup></label>
+                                            <input type="email" name="email" id="email" placeholder="Your email adress">
+                                        </div>
+                                    </div> 
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="phone-number">phone <span>(optional)</span></label>
+                                            <input type="text" name="phone-number" id="phone-number" placeholder="Your number phone">
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <label for="message">message</label>
+                                            <textarea name="message" id="message" placeholder="Write your message here ..."></textarea>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-12">
+                                        <div class="input-group submit-btn-wrap">
+                                            <button class="theme-btn" name="submit" type="submit" id="submit-form">send message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/owl.carousel.js"></script>
+    <script src="./assets/js/gsap.min.js"></script>
+    <script src="./assets/js/ScrollTrigger.min.js"></script>
+    <script src="./assets/js/ScrollToPlugin.min.js"></script>
+    <script src="./assets/js/lightbox.min.js"></script>
+    
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/ajax-form.js"></script>
+    <script src="./assets/js/color.js"></script>
+</body>
+</html>
